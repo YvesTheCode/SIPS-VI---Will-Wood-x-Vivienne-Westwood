@@ -1,0 +1,727 @@
+*{margin: 0;}
+
+#mersu{background: url(Data/Capture.PNG) 50% 50%;
+z-index: 99;
+background-size: cover;
+width: 100%;
+height: 100vh;
+opacity: 0;
+pointer-events: none;
+position: absolute;
+margin-top: 800px;
+top: 400%;
+display: grid;}
+
+/*xxxxxxxxxxxxxxxx INTRO xxxxxxxxxxxxxxxxxx*/
+
+#INTRO{width: 100%;
+height: 100vh;
+position: absolute;
+z-index: 98;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;}
+
+#SVG{width: 850px;
+margin-bottom: 50px;}
+
+.will{position: absolute;
+width: 412px;
+height: 270px;
+margin-left: 3%;}
+
+.wood{position: absolute;
+width: 444px;
+height: 270px;
+margin-left: 20px;}
+
+#will1{background: url(Data/W1.png);
+background-size: cover;}
+
+#will2{background: url(Data/i.png);
+background-size: cover;}
+
+#will3{background: url(Data/l.png);
+background-size: cover;}
+
+#will4{background: url(Data/l2.png);
+background-size: cover;}
+
+#wood1{background: url(Data/W2.png);
+background-size: cover;}
+
+#wood2{background: url(Data/o1.png);
+background-size: cover;}
+
+#wood3{background: url(Data/o.png);
+background-size: cover;}
+
+#wood4{background: url(Data/d.png);
+background-size: cover;}
+
+#WILL2{position: relative;
+width: 412px;
+height: 270px;
+margin-right: 20px;}
+    
+#WOOD2{position: relative;
+width: 444px;
+height: 270px;
+margin-left: 20px;}
+
+/*xxxxxxxxxxxxxxxx FOND xxxxxxxxxxxxxxxxxxx*/
+
+#FOND{width: 100%;
+height: 100vh;
+position: fixed;
+pointer-events: none;
+z-index: -99;}
+
+.row{pointer-events: all;
+display: flex;
+position: absolute;
+justify-content: space-between;
+align-items: flex-end;}
+
+#row1{width: 100%;
+height: 420px;
+margin-bottom: 10px;}
+
+#row2{width: 100%;
+height: 420px;
+top: 440px;
+margin-bottom: 10px;
+margin-top: 10px;}
+
+#row3{width: 100%;
+margin-top: 10px;
+height: 420px;
+z-index: 97;
+bottom: 0;}
+
+.flex{height: 420px;
+width: 368px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;}
+    
+#flex1{margin-left: 0;}
+    
+#flex5{margin-right: 0;}
+
+.lettre{font-size: 400px;
+font-family: 'Playfair Display';
+font-style: normal;
+color: #FBBA3D;
+margin: 20px;
+text-align: center;
+pointer-events: none;
+opacity:0.5}
+
+/*xxxxxxxxxxxxxxxx CLASS xxxxxxxxxxxxxxxxx*/
+
+.page{width: 100%;
+height: 100vh;
+margin-bottom: 200px;
+display: flex;
+position: relative;
+overflow-x: clip;
+overflow-y: visible;}
+
+i{color: #FBBA3D;
+font-weight: 700;}
+
+.blabla{width: 20%;
+font-size: 1.04vw;
+position: absolute;
+font-weight: 500;
+font-family: "Playfair Display";}
+
+span{opacity: 0;}
+
+header{width: 100%;
+position: fixed;
+z-index: 97;}
+
+.doot{width: 100px;
+height: 100px;
+background:url("Data/dootS.png");
+background-size: contain;
+background-repeat: no-repeat;
+margin:3vh ;}
+
+.dootimage {background:url("Data/dootP.png");
+background-size: contain;
+background-repeat: no-repeat;}
+
+.doot:hover{cursor: pointer;}
+
+.dootimage:hover{cursor: pointer;}
+
+#logo2{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+
+/*xxxxxxxxxxxxxxxx PAGE 1 xxxxxxxxxxxxxxxxx*/
+
+#all{width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+    
+#logo{position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+    
+#VW{font-family:'Playfair Display' ;
+font-weight: 801;
+font-size: 8vw;}
+    
+#CROSS{background: url(Data/CROSSFIN2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 6%;
+height: 120px;}
+    
+#WW{display: flex;}
+    
+#WILL{background: url(Data/WILLFIN.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 370px;
+height: 270px;
+margin-right: 20px;
+margin-left: 3%;}
+    
+#WOOD{background: url(Data/WOODFIN.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 370px;
+height: 270px;
+margin-left: 20px;}
+    
+#DADA{position: absolute;
+width: 40%;
+Height: 100%;
+right: 0%;}
+    
+#white{top: 200px;
+width: 400px;
+Height: 640px;
+z-index: -1;}
+        
+#suburbia{text-align: right;
+right: 10px;
+top: 420px;
+width: 378px;
+height: 420px;
+z-index: -1;}
+       
+#dance2{background: url(Data/LESTDANCEFINI.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+Width: 100%;
+Height: 100%;
+transform: translateX(-15%);}
+
+#monstre1{background: url(Data/queud.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 13%;
+height: 27%;
+bottom: -5%;
+left: -4%;
+transform: rotate(40deg);}
+
+#monstre10{background: url(Data/queud.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 13%;
+height: 27%;
+top: -5%;
+right: -6%;
+transform: rotate(-40deg);}
+
+/*xxxxxxxxxxxxxxxx PAGE 2 xxxxxxxxxxxxxxxxx*/
+
+.VI{position: absolute;
+Width: 100%;
+Height: 100%;
+scale: 0.8;
+transform: scale(0.8);}
+    
+#VIV{background: url(Data/will/vivienne/bouche.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+        
+#VIV2{background: url(Data/will/vivienne/pif.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: 1;}
+    
+#VIV3{background: url(Data/will/vivienne/cheveux.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+            
+#VIV4{background: url(Data/will/vivienne/pupil.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -1;}
+    
+#VIV5{background: url(Data/will/vivienne/yeux-D.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -2;}
+                
+#VIV6{background: url(Data/will/vivienne/yeux-G.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -1;}
+    
+#VIV7{background: url(Data/will/vivienne/cran22.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -3;}
+    
+#VIVI{position: absolute;
+Width: 40%;
+Height: 100%;
+right: 0%;}
+    
+#loveme{text-align: right;
+right: 10px;
+top: 440px;
+width: 400px;
+Height: 456px;
+z-index: -4;}
+            
+#lips{top: 200px;
+width: 400px;
+Height: 640px;
+z-index: -4;}
+
+#biov{left: 388px;
+top: 200px;
+text-align: justify;
+font-weight: 600;}
+
+#biov2{left: 388px;
+top: 440px;
+text-align: justify;
+font-weight: 600;}
+
+#monstre2{background: url(Data/corp2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 11%;
+height: 39%;
+bottom: 30%;
+left: -6%;}
+
+/*xxxxxxxxxxxxxxxx PAGE 3 xxxxxxxxxxxxxxxxxx*/
+
+.WI{Width: 100%;
+Height: 100%;
+scale: 0.9;
+transform: scale(0.9);
+position: absolute;}
+    
+#WIWI{position: absolute;
+Width: 40%;
+Height: 100%;}
+        
+#WILLWOOD{background: url(Data/will/bouche.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+    
+#WILLWOOD2{background: url(Data/will/pif.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+    
+#WILLWOOD3{background: url(Data/will/chapeau.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -1;}
+    
+#WILLWOOD4{background: url(Data/will/yeux-D.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+        
+#WILLWOOD5{background: url(Data/will/yeux-G.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+        
+#WILLWOOD6{background: url(Data/will/cran22.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: -2;}
+    
+#IME{width: 465px;
+top:400px;
+left: 10px;
+z-index: -4;}
+        
+#MYSELF{z-index: -4;
+Height: 987px;
+width: 492px;
+text-align: right;
+top: 20px;
+left: 270px;}
+
+#biov3{height: 417px;
+left: 1124px;
+top: 220px;
+text-align: justify;
+font-weight: 600;}
+
+#biov4{height: 420px;
+right: 10px;
+top: 440px;
+text-align: justify;
+font-weight: 600;}
+
+#monstre3{background: url(Data/corp2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 11%;
+height: 39%;
+top: -10%;
+right: -6%;
+transform: rotate(180deg);}    
+
+/*xxxxxxxxxxxxxxxx PAGE 4 xxxxxxxxxxxxxxxxx*/
+
+#wats{left: 380px;
+top: 200px;
+text-align: justify;
+font-weight: 600;}
+
+#wats2{Top:436px;
+Left:770px;
+text-align: justify;
+font-weight: 600;}
+
+#OUVERT{position: absolute;
+Width: 40%;
+Height: 100%;
+right: 0%;
+overflow: hidden;}
+
+#NORMAL{background: url(Data/e.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+Width: 100%;
+Height: 100%;}
+
+#SUBURBIA{z-index: -1;
+Height: 987px;
+width: 303px;
+top: 20px;
+left: 20px;}
+    
+#OUVERTURE{text-align: right;
+z-index: -1;
+Height: 987px;
+width: 370px;
+top: 420px;
+right: 10px;}
+
+#monstre4{background: url(Data/corp2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 11%;
+height: 39%;
+bottom: 0%;
+left: -6%;}
+
+/*xxxxxxxxxxxxxxxx PAGE 5 xxxxxxxxxxxxxxxxx*/
+
+#parade{background: url(Data/LETSPARDADE22.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+height: 98vh;
+width: 50%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: -5%;}
+
+#great{left: 1124px;
+top: 200px;
+text-align: justify;
+font-weight: 600;}
+    
+#great2{Top:646px;
+right: 10px;
+text-align: justify;
+font-weight: 600;}
+
+#depass{top: 20px;
+width: 247px;
+left: 10px;
+z-index: -1;}
+
+#depass2{left: 380px;
+top: 220px;
+text-align: right;
+z-index: -1;}
+
+#monstre5{background: url(Data/corp2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width: 11%;
+height: 39%;
+top: 0%;
+right: -6%;
+transform: rotate(180deg);}
+
+/*xxxxxxxxxxxxxxxx PAGE 6 xxxxxxxxxxxxxxxxx*/
+
+#page6{margin: 0;
+overflow: hidden;}
+
+.barre{width: 75%;
+display: flex;
+animation: scroll infinite 30s linear;}
+    
+#tien{width: 500%;
+bottom:0%;
+position: absolute;
+display: flex;}
+
+.img{width: 200px;
+margin-right: 200px;
+height: 100vh;
+background:url(data/CROSSFIN2.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#info{width: 100%;
+height: 100vh;
+opacity: 0;
+position: absolute;
+pointer-events: none;
+z-index: 3;}
+        
+#dessin{height: 75%;
+background: url(Data/LETSPARDADE22.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+        
+#box{position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+transform: translate(-50%,-50%);
+pointer-events: none;
+height: 100%;}
+        
+#nom{text-align: center;
+font-size: 80px;
+margin-top: 50px;
+margin-bottom: 25px;
+font-family: "Playfair Display";
+font-style: italic;
+font-weight: 600;
+color: #FBBA3D;}
+        
+#back{position: absolute;
+left: 3vh;
+bottom: 3vh;
+width: 50px;
+height: 50px;
+background-color: #FBBA3D;
+background: url(Data/Yeet.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#back:hover{cursor: pointer;}
+    
+#bla{position: absolute;
+right: 3vh;
+bottom: 3vh;
+width: 100px;
+height: 100px;
+background-color: #FBBA3D;
+background: url(Data/eshop.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#ici{position: absolute;
+width:300px;
+height: 400px;
+right: 15vh;
+bottom: 12vh;
+background: url(Data/là.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#nik{Top: 22%;
+Left: 50%;
+width: 20%;
+text-align: justify;
+z-index: -1;
+transform: translateX(-50%);}
+
+#un{background: url(Data/LETSPARDADE22.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#un2{background: url(Data/LETSPARDADE22.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#deu{background: url(Data/2econd.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#deu2{background: url(Data/2econd.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#troi{background: url(Data/BetterthenthealternativeXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 240px;}
+    
+#troi2{background: url(Data/BetterthenthealternativeXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 240px;}
+
+#quat{background: url(Data/Dr.SunshinediedforthisXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+    
+#quat2{background: url(Data/Dr.SunshinediedforthisXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#cinq{background: url(Data/WhatssowrongXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 170px;}
+    
+#cinq2{background: url(Data/WhatssowrongXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 170px;}
+
+#six{background: url(Data/CheeseinthegreatbehondXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+        
+#six2{background: url(Data/CheeseinthegreatbehondXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#sept{background: url(Data/LovemenormallyXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 190px;}
+            
+#sept2{background: url(Data/LovemenormallyXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 190px;}
+
+#huit{background: url(Data/PicknikTimeXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 180px;}
+                
+#huit2{background: url(Data/PicknikTimeXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 180px;}
+
+#neuf{background: url(Data/Thankkyou!NowleaveXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;}
+                    
+#neuf2{background: url(Data/Thankkyou!NowleaveXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;}
+
+#dix{background: url(Data/ThenormaloutfitXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 180px;}
+                    
+#dix2{background: url(Data/ThenormaloutfitXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 180px;}
+
+#onz{background: url(Data/ThemostimportantthingintheworldXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+                        
+#onz2{background: url(Data/ThemostimportantthingintheworldXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;}
+
+#douz{background: url(Data/WhendidIbecomeafraidofthedarkXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 160px;}
+                        
+#douz2{background: url(Data/WhendidIbecomeafraidofthedarkXx.png)50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 160px;}
+
+.mouth{width:22%;
+height:24%;
+z-index: 2;
+position: absolute;}
+
+#mouthup{background: url(Data/MOUTHUP.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+left: -5%;
+top: 5.5%;}
+
+#mouthdo{background: url(Data/MOUNTHDOWN.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+left: -7%;
+bottom: 5.5%;}
+
+#mouthup2{background: url(Data/MOUTHUPC.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+right: -5%;
+top: 5.5%;}
+    
+#mouthdo2{background: url(Data/MOUNTHDOWNC.png) 50% 50%;
+background-size: contain;
+background-repeat: no-repeat;
+right: -7%;
+bottom: 5.5%;}
+
+@keyframes scroll {
+    0%{
+        transform: translate(0,0);
+    }
+
+    100%{
+        transform: translate(-100%);
+
+    }
+}
